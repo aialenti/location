@@ -15,6 +15,7 @@ const titles = {
   'email': 'Email',
   'forms': 'Forms',
   'google-maps': 'Google Maps',
+  'location-fullscreen': 'Location Fullscreen',
   'signin': 'Signin',
   'signup': 'Signup',
   'ui': 'UI',

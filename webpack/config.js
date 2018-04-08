@@ -15,11 +15,11 @@
 // ---------------------
 
 const
-  path      = require('path'),
-  manifest  = require('./manifest'),
+  path = require('path'),
+  manifest = require('./manifest'),
   devServer = require('./devServer'),
-  rules     = require('./rules'),
-  plugins   = require('./plugins');
+  rules = require('./rules'),
+  plugins = require('./plugins');
 
 
 // ------------------
@@ -37,11 +37,11 @@ const
 // ---------------
 
 const resolve = {
-  extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js'],
+  extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.png', '.css'],
   modules: [
     path.join(__dirname, '../node_modules'),
     path.join(manifest.paths.src, ''),
-  ],
+  ]
 };
 
 

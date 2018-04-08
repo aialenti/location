@@ -1,0 +1,63 @@
+/* your theme's styles */
+body {
+	padding:0;
+	margin:0;
+}
+#leaflet-map {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.dc-leaflet {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+}
+
+#omnibox {
+    position: absolute;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+	top: 20px;
+	left: 20px;
+	z-index: 9999;
+	box-shadow: 0px 3px 15px grey;
+}
+
+#omnibox .nav {
+    padding: 10px;    
+}
+
+#omnibox .nav-item {
+    margin-left: 20px;
+    color: #444;
+    cursor: pointer;
+}
+
+#omnibox .nav-item:hover{
+    opacity: 0.7;
+}
+
+#omnibox .nav-item.noclick{
+    opacity: 0.3;
+    cursor: default;
+}
+
+#omnibox .nav-item.last {
+    margin-right: 20px;
+}
+
+#omnibox .nav-item i {
+    font-size: 25px;
+}
+
+#sidebar-filters, #sidebar-layers {
+    left: -300px;
+}
+
+.sidebar {
+    box-shadow: 0px 3px 15px grey;
+}
